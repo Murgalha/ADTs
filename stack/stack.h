@@ -27,6 +27,6 @@ void stack_delete(stack_t *);
 
 /* return 1 if stack is empty
  * 0 otherwise */
-int empty(stack_t *);
+int stack_empty(stack_t *);
 
 #endif

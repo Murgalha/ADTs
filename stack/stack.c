@@ -36,6 +36,6 @@ void stack_delete(stack_t *stack) {
     free(stack);
 }
 
-int empty(stack_t *stack) {
+int stack_empty(stack_t *stack) {
     return !(stack->size);
 }
